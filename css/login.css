@@ -1,0 +1,26 @@
+body {
+    background-color: #0D1B2A;
+    color: #E0E1DD;
+    display: flex;
+    justify-content: center;
+}
+.box {
+    background-color: #1B263B;
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.box div{
+    padding: 10px;
+}
+.box button{
+    margin: 20px;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+}
