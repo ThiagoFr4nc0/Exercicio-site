@@ -1,18 +1,54 @@
 body {
-    background-color: #0D1B2A;
-    color: #E0E1DD;
+  background-color: #0d1b2a;
+  color: #e0e1dd;
 }
 nav {
-    background-color: #415A77;
+  background-color: #415a77;
+  padding-left: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: #e0e1dd;
+}
+/* visited link */
+a:visited {
+  color: #e0e1dd;
+}
+
+/* mouse over link */
+a:hover {
+  color: #e0e1dd;
+}
+
+/* selected link */
+a:active {
+  color: #e0e1dd;
+}
+.col a {
+  color: #1b263b;
+  font-size: 25px;
+  padding-left: auto;
+}
+.container div {
+  margin: 5px;
+  border-radius: 5px;
+}
 .exec {
-    background-image: url("../assets/imgs/exercicios-fisicos-academia-600x400.webp");
+  background-image: url("../assets/imgs/maquina.jpg");
+  background-color: #778da9;
+  align-content: center;
+  height: 30vh;
 }
-.dia{
-    background-image: url("../assets/imgs/images.jpg");
-    
+.dia {
+  background-image: url("../assets/imgs/images.jpg");
+  background-color: #778da9;
+  align-items: center;
+  height: 30vh;
 }
-.dieta{
-    background-image: url("../assets/imgs/images.jpg");
+.dieta {
+  background-image: url("../assets/imgs/2054924-conceito-de-dieta-saudavel-gratis-foto.jpg");
+  background-color: #778da9;
+  align-items: center;
+  height: 30vh;
 }
